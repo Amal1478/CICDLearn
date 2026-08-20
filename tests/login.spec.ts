@@ -1,6 +1,8 @@
 import { test, expect } from '@playwright/test';
 import { LoginPage } from '../pages/LoginPage';
 
+// Git practice - first change
+
 // Test data configuration to avoid hardcoding specific data directly in the test logic.
 // In a real project, this might come from a .env file, a config file, or test parameters.
 const TEST_DATA = {
