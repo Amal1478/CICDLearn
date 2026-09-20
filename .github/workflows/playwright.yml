@@ -2,8 +2,8 @@ name: Daily Playwright Tests
 
 on:
   schedule:
+    # 3:30 AM UTC is 9:00 AM IST
     - cron: '30 3 * * *'
-      timezone: 'Asia/Kolkata'
 
   workflow_dispatch:
 
